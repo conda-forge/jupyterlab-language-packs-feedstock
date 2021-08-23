@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-language-packs-feedstock/blob/master/LICENSE.txt)
 
-Summary: JupyterLab el-GR Language Pack
+Summary: JupyterLab cs-CZ Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
