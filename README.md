@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-language-packs-feedstock/blob/master/LICENSE.txt)
 
-Summary: JupyterLab cs-CZ Language Pack
+Summary: JupyterLab Language Packs
 
 Development: https://github.com/jupyterlab/language-packs
 
@@ -75,10 +75,10 @@ Once the `conda-forge` channel has been enabled, `jupyterlab-language-pack-ar-sa
 conda install jupyterlab-language-pack-ar-sa jupyterlab-language-pack-ca-es jupyterlab-language-pack-cs-cz jupyterlab-language-pack-da-dk jupyterlab-language-pack-de-de jupyterlab-language-pack-el-gr jupyterlab-language-pack-es-es jupyterlab-language-pack-et-ee jupyterlab-language-pack-fi-fi jupyterlab-language-pack-fr-fr jupyterlab-language-pack-he-il jupyterlab-language-pack-hu-hu jupyterlab-language-pack-id-id jupyterlab-language-pack-it-it jupyterlab-language-pack-ja-jp jupyterlab-language-pack-ko-kr jupyterlab-language-pack-nl-nl jupyterlab-language-pack-no-no jupyterlab-language-pack-pl-pl jupyterlab-language-pack-pt-br jupyterlab-language-pack-ro-ro jupyterlab-language-pack-ru-ru jupyterlab-language-pack-tr-tr jupyterlab-language-pack-uk-ua jupyterlab-language-pack-vi-vn jupyterlab-language-pack-zh-cn jupyterlab-language-pack-zh-tw
 ```
 
-It is possible to list all of the versions of `jupyterlab-language-pack-ar-sa` available on your platform with:
+It is possible to list all of the versions of `jupyterlab-language-pack-<locale>` available on your platform with:
 
 ```
-conda search jupyterlab-language-pack-ar-sa --channel conda-forge
+conda search jupyterlab-language-pack-<locale> --channel conda-forge
 ```
 
 
