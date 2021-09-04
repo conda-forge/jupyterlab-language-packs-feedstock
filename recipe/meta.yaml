@@ -40,7 +40,7 @@ source:
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-he-IL/{{ name }}-he-IL-{{ version }}.tar.gz
     sha256: b38b9c5ec8b9bfcb87e629ee089c5bbe7674988d4be5c6eb9916ff9895c49fc5
   - folder: hy-AM
-    url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-hy-AM/{{ name }}-hy-AM{{ version }}.tar.gz
+    url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-hy-AM/{{ name }}-hy-AM-{{ version }}.tar.gz
     sha256: 46df14e1a77fe7855d6c702cdb94cc1822869d79f654a3bf94bd59b1f1a75135
   - folder: hu-HU
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-hu-HU/{{ name }}-hu-HU-{{ version }}.tar.gz
@@ -58,7 +58,7 @@ source:
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-ko-KR/{{ name }}-ko-KR-{{ version }}.tar.gz
     sha256: e7a30a714a26f1ff4e680eb8f73e8aae90c105678787de0cfd51a996c56b360d
   - folder: lt-LT
-    url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-lt-LT/{{ name }}-lt-LT{{ version }}.tar.gz
+    url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-lt-LT/{{ name }}-lt-LT-{{ version }}.tar.gz
     sha256: ef146ec74aeb87503135fe23c1f621ef1a2e9e16952052ee27e1b7b14e8702e2
   - folder: nl-NL
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-nl-NL/{{ name }}-nl-NL-{{ version }}.tar.gz
