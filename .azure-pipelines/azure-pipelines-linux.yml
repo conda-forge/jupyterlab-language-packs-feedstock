@@ -56,6 +56,10 @@ jobs:
         CONFIG: linux_64_localehu-HU
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
+      linux_64_localehy-AM:
+        CONFIG: linux_64_localehy-AM
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
       linux_64_localeid-ID:
         CONFIG: linux_64_localeid-ID
         UPLOAD_PACKAGES: 'True'
@@ -70,6 +74,10 @@ jobs:
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
       linux_64_localeko-KR:
         CONFIG: linux_64_localeko-KR
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
+      linux_64_localelt-LT:
+        CONFIG: linux_64_localelt-LT
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
       linux_64_localenl-NL:
