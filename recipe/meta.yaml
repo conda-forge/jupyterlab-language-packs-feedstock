@@ -39,6 +39,9 @@ source:
   - folder: he-IL
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-he-IL/{{ name }}-he-IL-{{ version }}.tar.gz
     sha256: b38b9c5ec8b9bfcb87e629ee089c5bbe7674988d4be5c6eb9916ff9895c49fc5
+  - folder: hy-AM
+    url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-hy-AM/{{ name }}-hy-AM{{ version }}.tar.gz
+    sha256: 46df14e1a77fe7855d6c702cdb94cc1822869d79f654a3bf94bd59b1f1a75135
   - folder: hu-HU
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-hu-HU/{{ name }}-hu-HU-{{ version }}.tar.gz
     sha256: 36939a9e4fd1004566d95b0a4b0d4d8caeeb9abcc29ba3143c16890ee96fd8a5
@@ -54,6 +57,9 @@ source:
   - folder: ko-KR
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-ko-KR/{{ name }}-ko-KR-{{ version }}.tar.gz
     sha256: e7a30a714a26f1ff4e680eb8f73e8aae90c105678787de0cfd51a996c56b360d
+  - folder: lt-LT
+    url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-lt-LT/{{ name }}-lt-LT{{ version }}.tar.gz
+    sha256: ef146ec74aeb87503135fe23c1f621ef1a2e9e16952052ee27e1b7b14e8702e2
   - folder: nl-NL
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-nl-NL/{{ name }}-nl-NL-{{ version }}.tar.gz
     sha256: af2e8fb6b49b4ee82748c714481d45c0618e7a6e2015c7df85ce8e406b1eb7b6
@@ -89,7 +95,7 @@ source:
     sha256: cc2e2f7b782d0ecdefd2546a69b1435c1294544ab3f66d42cfb6d43600ca4018
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install "./{{ locale }}" -vv --no-deps
 
