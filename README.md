@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-language-packs-feedstock/blob/master/LICENSE.txt)
 
-Summary: JupyterLab da-DK Language Pack
+Summary: JupyterLab ja-JP Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
