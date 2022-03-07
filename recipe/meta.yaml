@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-language-pack" %}
-{% set version = "3.2.post9" %}
+{% set version = "3.3.post0" %}
 
 package:
   name: {{ name|lower }}-{{ locale|lower }}
@@ -8,91 +8,91 @@ package:
 source:
   - folder: ar-SA
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-ar-SA/{{ name }}-ar-SA-{{ version }}.tar.gz
-    sha256: 0f8e7e8a104c1e3263d2992011c18415ded22eefaf5637ea3e0e6dad3d65496b
+    sha256: 62268287e90eb53f3d2e80ce282e76550861d0b2d53742362608fe054b1c5b2d
   - folder: ca-ES
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-ca-ES/{{ name }}-ca-ES-{{ version }}.tar.gz
-    sha256: 5325b46d2c72005960082853572c2679e1691d6c4d3beb5a5f2e52ff5421d092
+    sha256: 5aad863b9b4be3ae720a5642f8356118eced9e1d59155ac26bb0a31e55b544b5
   - folder: cs-CZ
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-cs-CZ/{{ name }}-cs-CZ-{{ version }}.tar.gz
-    sha256: c354d8480c7ca3798da91a6e5a5f6d53f175c7cb23c9ced51d6dfbf66c6646d5
+    sha256: 855320034bb7d3dedecc08753cd19d7a10d43da885e1f06d6f6654f970ff1900
   - folder: da-DK
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-da-DK/{{ name }}-da-DK-{{ version }}.tar.gz
-    sha256: 70896dd4deb94677173bba6471f4d40808407e325246e1f353f5cea9a81f53f3
+    sha256: b891834b257e7e5655070727290b0f8f20649a252acf296f1c462f217e7ea868
   - folder: de-DE
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-de-DE/{{ name }}-de-DE-{{ version }}.tar.gz
-    sha256: 6329f0dd45b3949770761003c46179be2b81f9b642d77557dde1525b6b6e4c76
+    sha256: 1ab79d0fdcc8b0d00710b3c6fc166df90df96252e407512b250b857b64e58f8c
   - folder: el-GR
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-el-GR/{{ name }}-el-GR-{{ version }}.tar.gz
-    sha256: e591a76942b2a487e5cd591ddcf6e5113f7ff56fe96a794e7026ab419f56f689
+    sha256: 3cc43a5327bdbc1c6b04c4b246e5e96e5d67d58e7f48800e6f59a1448b19054b
   - folder: es-ES
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-es-ES/{{ name }}-es-ES-{{ version }}.tar.gz
-    sha256: 92c14f048fd362bbedaa3301e53cade61e242c4fed05ef42bbc0fedad9637673
+    sha256: 277032f74ec39318872c37cac57521e695ba32bf30992e73626ab22139b665f2
   - folder: et-EE
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-et-EE/{{ name }}-et-EE-{{ version }}.tar.gz
-    sha256: dcd18bde9486d034d7e194b1c90300f8d873622379f24b955c8d8eff272d2870
+    sha256: 17ea921b89e59a233f807fd8d348addc238c3a78f685601801c8088f1edb512e
   - folder: fi-FI
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-fi-FI/{{ name }}-fi-FI-{{ version }}.tar.gz
-    sha256: c9c1bf32d899a492d391cee13a086fbc399e9585bf6d9bdc6ada3b6e047c653e
+    sha256: cbbbc44b7bc4c07d48303741c4fef9e0d0b067ca1f357185214ceeba99ee3fdb
   - folder: fr-FR
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-fr-FR/{{ name }}-fr-FR-{{ version }}.tar.gz
-    sha256: 2c8afbf85a600ac264006f6d65cdf1bb962dae6ea5c17970c50255f7b8b01e11
+    sha256: cd76c6ef241e2e4fe1eb6f20429e0e5b8469a89d31314b024a44c647e05599bf
   - folder: he-IL
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-he-IL/{{ name }}-he-IL-{{ version }}.tar.gz
-    sha256: 4721304ca54b22423f66d25164c75731a40d5312b8ca2af3ef9758d39e3b993b
+    sha256: 497158782dbd375bb3d930cdcde68d2f29559afc7e41db79ff5913eecf5f00de
   - folder: hy-AM
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-hy-AM/{{ name }}-hy-AM-{{ version }}.tar.gz
-    sha256: 137616ff9e964dc7ad9ff6f3eadb94d54471011ffd68ed2d3be48e79ebdb6347
+    sha256: da22250341af9f26248b74c786922c4a060b591e649eda2804115f1572c865ec
   - folder: hu-HU
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-hu-HU/{{ name }}-hu-HU-{{ version }}.tar.gz
-    sha256: 90f308a749f9dd0c64c2ca0e5a151df953b23fa6cfd85d4972ba872e0582e07c
+    sha256: 398104f33fbf11284d14973c489745752c923a6db049f428c136079eb6281215
   - folder: id-ID
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-id-ID/{{ name }}-id-ID-{{ version }}.tar.gz
-    sha256: 22703cb4960ee1f8d63e46e02ddfcb70c7d78d08743f24138047a3322be57cea
+    sha256: 2ab273fddecbb98e312ba53ab49d672b6f9348a4a949ed9e498989cec9aa6ddd
   - folder: it-IT
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-it-IT/{{ name }}-it-IT-{{ version }}.tar.gz
-    sha256: 95155d1490855f934e2642b5cf5c9ebeecb0b64494394b7939a4cea8931296f1
+    sha256: d460f2de7d11cfcd6d32e3808ebdc313cccdd791d48c31d89ae944a0b0de4a83
   - folder: ja-JP
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-ja-JP/{{ name }}-ja-JP-{{ version }}.tar.gz
-    sha256: 7ff30da6b172b604178187ba256edf44b558d1ba8f4bf563fb040d1574aee459
+    sha256: b4bc72716788de4bdc70c1bd74014923628a751d9a1bef700cfc1c318d412f0e
   - folder: ko-KR
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-ko-KR/{{ name }}-ko-KR-{{ version }}.tar.gz
-    sha256: 2d01892d9807990b1f8d64cd59136d6e4c6255a30eab0e8bfb6f2ba46cc1a076
+    sha256: 9fb377593ec6fde018e74c22b9d5784bd3db339c8bb73d2569858b5d55dd08f4
   - folder: lt-LT
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-lt-LT/{{ name }}-lt-LT-{{ version }}.tar.gz
-    sha256: 5ac2df66d9bec02817e8bad7f62768d28d1407217831c990bd8030f098f342fc
+    sha256: 965d8b281185e06e7cbd8e720988eb7c164dfbce78a0d3605b8256695256223e
   - folder: nl-NL
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-nl-NL/{{ name }}-nl-NL-{{ version }}.tar.gz
-    sha256: acd8d229232b2ed89973efb64f4f068d75c6a7d74f76f65f16e57e9115e18532
+    sha256: 3fb092afff5e0d4e6009545c2d766693454522d05933a781b91e87c64b6697df
   - folder: no-NO
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-no-NO/{{ name }}-no-NO-{{ version }}.tar.gz
-    sha256: b072a9dd89500a3f830ca87716882c0a6f7bed84440ef0a7d089f727bccac8a3
+    sha256: 6dc942eb0f87ef96fd062f7161d2cd27339928ed10bf02c0afd4ca9f39cf2a85
   - folder: pl-PL
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-pl-PL/{{ name }}-pl-PL-{{ version }}.tar.gz
-    sha256: aa423d4661f39e18c2313e9bb864199a21a32d38b393e02a91f4b1ef5955365a
+    sha256: 42d2934435ebdbd2123f03b152d83fa80cfd08a7c211b9c2e9fafdb2c0d117a8
   - folder: pt-BR
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-pt-BR/{{ name }}-pt-BR-{{ version }}.tar.gz
-    sha256: 323fc8bb1926b616aaf4e4ae66d817b3ddb9058a2656a97393e886b73f22cf7c
+    sha256: f37dfdbe5e90d889a8e0b8430bb9a5c93fae1512ff1a54049a2c4ed2b52113bb
   - folder: ro-RO
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-ro-RO/{{ name }}-ro-RO-{{ version }}.tar.gz
-    sha256: f09db2bb316f699dbfc32a7895138a4d85b464530e5f484da92041278c790c4e
+    sha256: abd24bf80ae0df9080bf4af246e6771b1bcea3c4c674e7e7bf98d8601ceb48e7
   - folder: ru-RU
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-ru-RU/{{ name }}-ru-RU-{{ version }}.tar.gz
-    sha256: 00f7426a3b191318fca9546b204b404e21393f03fc3535d791a05abc28c8659e
+    sha256: 9e6304ef8c1844bce61fe9ed3a0f224337d6173c573dc745bbb0a2c94dd5caeb
   - folder: tr-TR
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-tr-TR/{{ name }}-tr-TR-{{ version }}.tar.gz
-    sha256: 8b1917790c76e90779a30f9f3fa130607622635a303cb8a2a9c830144d0e8120
+    sha256: aa745d450ed053dfedd68a47f4131b41529747c72f74a9e3ff32db040bc0e1f9
   - folder: uk-UA
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-uk-UA/{{ name }}-uk-UA-{{ version }}.tar.gz
-    sha256: 4dfe4a74d0df9f286d73be39ee1ad3205ca32f9060308ff7f95a50189593bac3
+    sha256: 0aa9afe8bb0d9fb045ae33a1e93014a563bd49e0febed8c6a829e3d9707a4689
   - folder: vi-VN
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-vi-VN/{{ name }}-vi-VN-{{ version }}.tar.gz
-    sha256: 4e3179e48321a14dec6c7e0f4c8d488f4eb2e87d394169ec08de26f54f510af7
+    sha256: 516c25b5d9820a7ed3a91ace661154ef9b3c40e12547aee635dba63146c42d60
   - folder: zh-CN
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-zh-CN/{{ name }}-zh-CN-{{ version }}.tar.gz
-    sha256: 2ef0e7c2a3beed85d70a83f5c998dc457582fa6bbe7e45cf38ee2fb0a636dca1
+    sha256: 2df28e8f829d3de665c0439ad6e9657a1a358a347c9bd8b7a38fbe36520bf663
   - folder: zh-TW
     url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-zh-TW/{{ name }}-zh-TW-{{ version }}.tar.gz
-    sha256: 052ed959555af272babc026f2af5431efc57f7e2879f18029bf4bff7392fd013
+    sha256: b3f143224a98d12ca3764fb3a84a8c5f0fba21457d2645838d433a7f6b59f8cb
 
 build:
   number: 0
