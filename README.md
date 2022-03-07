@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-language-packs-feedstock/blob/master/LICENSE.txt)
 
-Summary: JupyterLab ro-RO Language Pack
+Summary: JupyterLab ko-KR Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
