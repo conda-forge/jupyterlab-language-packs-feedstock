@@ -61,7 +61,7 @@ jobs:
       - name: Bump version
         run: |
           set -ex
-          python bump-version.py ${{ inputs.version }}
+          python bump-version.py ${{ github.event.inputs.version }}
 
           # Fail if no change
           if [[ $(git ls-files --exclude-standard -om | wc -l) == 0 ]]; then exit 1; fi
@@ -69,12 +69,12 @@ jobs:
       - name: Commit recipe
         shell: bash -l {0}
         run: |
-          git config user.name '${{ inputs.git_username }}'
-          git config user.email '${{ inputs.git_email }}'
+          git config user.name '${{ github.event.inputs.git_username }}'
+          git config user.email '${{ github.event.inputs.git_email }}'
 
-          git checkout -b bump-to-${{ inputs.version }}
+          git checkout -b bump-to-${{ github.event.inputs.version }}
           git add recipe/meta.yaml
-          git commit -m "Bump recipe to ${{ inputs.version }}"
+          git commit -m "Bump recipe to ${{ github.event.inputs.version }}"
 
       - name: Push new recipe
         if: ${{ inputs.dry_run != 'yes' }}
@@ -91,8 +91,8 @@ jobs:
             await github.rest.pulls.create({
               owner: "conda-forge",
               repo: "jupyterlab-language-packs-feedstock",
-              head: "bump-to-${{ inputs.version }}",
+              head: "bump-to-${{ github.event.inputs.version }}",
               base: "main",
-              title: "Bump to ${{ inputs.version }}"
+              title: "Bump to ${{ github.event.inputs.version }}"
             });
 
