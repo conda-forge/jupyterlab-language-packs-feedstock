@@ -5,9 +5,9 @@ Home: https://github.com/jupyterlab/language-packs
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-language-packs-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-language-packs-feedstock/blob/main/LICENSE.txt)
 
-Summary: JupyterLab ko-KR Language Pack
+Summary: JupyterLab id-ID Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
@@ -19,8 +19,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13694&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab-language-packs-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13694&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab-language-packs-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -71,16 +71,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `jupyterlab-language-pack-ar-sa, jupyterlab-language-pack-ca-es, jupyterlab-language-pack-cs-cz, jupyterlab-language-pack-da-dk, jupyterlab-language-pack-de-de, jupyterlab-language-pack-el-gr, jupyterlab-language-pack-es-es, jupyterlab-language-pack-et-ee, jupyterlab-language-pack-fi-fi, jupyterlab-language-pack-fr-fr, jupyterlab-language-pack-he-il, jupyterlab-language-pack-hu-hu, jupyterlab-language-pack-hy-am, jupyterlab-language-pack-id-id, jupyterlab-language-pack-it-it, jupyterlab-language-pack-ja-jp, jupyterlab-language-pack-ko-kr, jupyterlab-language-pack-lt-lt, jupyterlab-language-pack-nl-nl, jupyterlab-language-pack-no-no, jupyterlab-language-pack-pl-pl, jupyterlab-language-pack-pt-br, jupyterlab-language-pack-ro-ro, jupyterlab-language-pack-ru-ru, jupyterlab-language-pack-tr-tr, jupyterlab-language-pack-uk-ua, jupyterlab-language-pack-vi-vn, jupyterlab-language-pack-zh-cn, jupyterlab-language-pack-zh-tw` can be installed with:
+Once the `conda-forge` channel has been enabled, `jupyterlab-language-pack-ar-sa, jupyterlab-language-pack-ca-es, jupyterlab-language-pack-cs-cz, jupyterlab-language-pack-da-dk, jupyterlab-language-pack-de-de, jupyterlab-language-pack-el-gr, jupyterlab-language-pack-es-es, jupyterlab-language-pack-et-ee, jupyterlab-language-pack-fi-fi, jupyterlab-language-pack-fr-fr, jupyterlab-language-pack-he-il, jupyterlab-language-pack-hu-hu, jupyterlab-language-pack-hy-am, jupyterlab-language-pack-id-id, jupyterlab-language-pack-it-it, jupyterlab-language-pack-ja-jp, jupyterlab-language-pack-ko-kr, jupyterlab-language-pack-lt-lt, jupyterlab-language-pack-nl-nl, jupyterlab-language-pack-no-no, jupyterlab-language-pack-pl-pl, jupyterlab-language-pack-pt-br, jupyterlab-language-pack-ro-ro, jupyterlab-language-pack-ru-ru, jupyterlab-language-pack-tr-tr, jupyterlab-language-pack-uk-ua, jupyterlab-language-pack-vi-vn, jupyterlab-language-pack-zh-cn, jupyterlab-language-pack-zh-tw` can be installed with `conda`:
 
 ```
 conda install jupyterlab-language-pack-ar-sa jupyterlab-language-pack-ca-es jupyterlab-language-pack-cs-cz jupyterlab-language-pack-da-dk jupyterlab-language-pack-de-de jupyterlab-language-pack-el-gr jupyterlab-language-pack-es-es jupyterlab-language-pack-et-ee jupyterlab-language-pack-fi-fi jupyterlab-language-pack-fr-fr jupyterlab-language-pack-he-il jupyterlab-language-pack-hu-hu jupyterlab-language-pack-hy-am jupyterlab-language-pack-id-id jupyterlab-language-pack-it-it jupyterlab-language-pack-ja-jp jupyterlab-language-pack-ko-kr jupyterlab-language-pack-lt-lt jupyterlab-language-pack-nl-nl jupyterlab-language-pack-no-no jupyterlab-language-pack-pl-pl jupyterlab-language-pack-pt-br jupyterlab-language-pack-ro-ro jupyterlab-language-pack-ru-ru jupyterlab-language-pack-tr-tr jupyterlab-language-pack-uk-ua jupyterlab-language-pack-vi-vn jupyterlab-language-pack-zh-cn jupyterlab-language-pack-zh-tw
 ```
 
-It is possible to list all of the versions of `jupyterlab-language-pack-ar-sa` available on your platform with:
+or with `mamba`:
+
+```
+mamba install jupyterlab-language-pack-ar-sa jupyterlab-language-pack-ca-es jupyterlab-language-pack-cs-cz jupyterlab-language-pack-da-dk jupyterlab-language-pack-de-de jupyterlab-language-pack-el-gr jupyterlab-language-pack-es-es jupyterlab-language-pack-et-ee jupyterlab-language-pack-fi-fi jupyterlab-language-pack-fr-fr jupyterlab-language-pack-he-il jupyterlab-language-pack-hu-hu jupyterlab-language-pack-hy-am jupyterlab-language-pack-id-id jupyterlab-language-pack-it-it jupyterlab-language-pack-ja-jp jupyterlab-language-pack-ko-kr jupyterlab-language-pack-lt-lt jupyterlab-language-pack-nl-nl jupyterlab-language-pack-no-no jupyterlab-language-pack-pl-pl jupyterlab-language-pack-pt-br jupyterlab-language-pack-ro-ro jupyterlab-language-pack-ru-ru jupyterlab-language-pack-tr-tr jupyterlab-language-pack-uk-ua jupyterlab-language-pack-vi-vn jupyterlab-language-pack-zh-cn jupyterlab-language-pack-zh-tw
+```
+
+It is possible to list all of the versions of `jupyterlab-language-pack-ar-sa` available on your platform with `conda`:
 
 ```
 conda search jupyterlab-language-pack-ar-sa --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search jupyterlab-language-pack-ar-sa --channel conda-forge
+```
+
+Alternatively, `mamba repoquery` may provide more information:
+
+```
+# Search all versions available on your platform:
+mamba repoquery search jupyterlab-language-pack-ar-sa --channel conda-forge
+
+# List packages depending on `jupyterlab-language-pack-ar-sa`:
+mamba repoquery whoneeds jupyterlab-language-pack-ar-sa --channel conda-forge
+
+# List dependencies of `jupyterlab-language-pack-ar-sa`:
+mamba repoquery depends jupyterlab-language-pack-ar-sa --channel conda-forge
 ```
 
 
@@ -98,10 +123,12 @@ for each of the installable packages. Such a repository is known as a *feedstock
 A feedstock is made up of a conda recipe (the instructions on what and how to build
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
-[CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
-packages to the [conda-forge](https://anaconda.org/conda-forge)
-[Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
+[Azure](https://azure.microsoft.com/en-us/services/devops/), [GitHub](https://github.com/),
+[CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
+[Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
+it is possible to build and upload installable packages to the
+[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
 [conda-smithy](https://github.com/conda-forge/conda-smithy) has been developed.

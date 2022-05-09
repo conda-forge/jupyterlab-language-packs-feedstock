@@ -84,9 +84,8 @@ jobs:
           git config push.default upstream
 
           git push --set-upstream origin bump-to-${{ github.event.inputs.version }}
-          
-          echo Open a PR: https://github.com/${{ github.repository }}/pull/new/bump-to-${{ github.event.inputs.version }}
 
+#       # FIXME
 #       - name: Open PR
 #         uses: actions/github-script@v6
 #         with:
@@ -98,4 +97,6 @@ jobs:
 #               base: "main",
 #               title: "Bump to ${{ github.event.inputs.version }}"
 #             });
-
+#         env:
+#           GITHUB_USER: ${{ secrets.GITHUB_USER }}
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
