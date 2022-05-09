@@ -82,7 +82,7 @@ jobs:
         run: |
           git config push.default upstream
 
-          git push
+          git push --set-upstream origin bump-to-${{ github.event.inputs.version }}
 
       - name: Open PR
         uses: actions/github-script@v6
