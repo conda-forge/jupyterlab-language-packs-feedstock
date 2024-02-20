@@ -11,20 +11,7 @@ Home: https://github.com/jupyterlab/language-packs
 
 Package license: BSD-3-Clause
 
-Summary: JupyterLab ja-JP Language Pack
-
-Development: https://github.com/jupyterlab/language-packs
-
-Documentation: https://jupyterlab.readthedocs.io/
-
-About jupyterlab-language-pack-ar-sa
-------------------------------------
-
-Home: https://github.com/jupyterlab/language-packs
-
-Package license: BSD-3-Clause
-
-Summary: JupyterLab ar-SA Language Pack
+Summary: JupyterLab da-DK Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
@@ -43,14 +30,79 @@ Development: https://github.com/jupyterlab/language-packs
 
 Documentation: https://jupyterlab.readthedocs.io/
 
-About jupyterlab-language-pack-es-es
+About jupyterlab-language-pack-ca-es
 ------------------------------------
 
 Home: https://github.com/jupyterlab/language-packs
 
 Package license: BSD-3-Clause
 
-Summary: JupyterLab es-ES Language Pack
+Summary: JupyterLab ca-ES Language Pack
+
+Development: https://github.com/jupyterlab/language-packs
+
+Documentation: https://jupyterlab.readthedocs.io/
+
+About jupyterlab-language-pack-pt-br
+------------------------------------
+
+Home: https://github.com/jupyterlab/language-packs
+
+Package license: BSD-3-Clause
+
+Summary: JupyterLab pt-BR Language Pack
+
+Development: https://github.com/jupyterlab/language-packs
+
+Documentation: https://jupyterlab.readthedocs.io/
+
+About jupyterlab-language-pack-uk-ua
+------------------------------------
+
+Home: https://github.com/jupyterlab/language-packs
+
+Package license: BSD-3-Clause
+
+Summary: JupyterLab uk-UA Language Pack
+
+Development: https://github.com/jupyterlab/language-packs
+
+Documentation: https://jupyterlab.readthedocs.io/
+
+About jupyterlab-language-pack-fi-fi
+------------------------------------
+
+Home: https://github.com/jupyterlab/language-packs
+
+Package license: BSD-3-Clause
+
+Summary: JupyterLab fi-FI Language Pack
+
+Development: https://github.com/jupyterlab/language-packs
+
+Documentation: https://jupyterlab.readthedocs.io/
+
+About jupyterlab-language-pack-ja-jp
+------------------------------------
+
+Home: https://github.com/jupyterlab/language-packs
+
+Package license: BSD-3-Clause
+
+Summary: JupyterLab ja-JP Language Pack
+
+Development: https://github.com/jupyterlab/language-packs
+
+Documentation: https://jupyterlab.readthedocs.io/
+
+About jupyterlab-language-pack-tr-tr
+------------------------------------
+
+Home: https://github.com/jupyterlab/language-packs
+
+Package license: BSD-3-Clause
+
+Summary: JupyterLab tr-TR Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
@@ -82,79 +134,53 @@ Development: https://github.com/jupyterlab/language-packs
 
 Documentation: https://jupyterlab.readthedocs.io/
 
-About jupyterlab-language-pack-pt-br
+About jupyterlab-language-pack-nl-nl
 ------------------------------------
 
 Home: https://github.com/jupyterlab/language-packs
 
 Package license: BSD-3-Clause
 
-Summary: JupyterLab pt-BR Language Pack
+Summary: JupyterLab nl-NL Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
 Documentation: https://jupyterlab.readthedocs.io/
 
-About jupyterlab-language-pack-tr-tr
+About jupyterlab-language-pack-id-id
 ------------------------------------
 
 Home: https://github.com/jupyterlab/language-packs
 
 Package license: BSD-3-Clause
 
-Summary: JupyterLab tr-TR Language Pack
+Summary: JupyterLab id-ID Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
 Documentation: https://jupyterlab.readthedocs.io/
 
-About jupyterlab-language-pack-ro-ro
+About jupyterlab-language-pack-ar-sa
 ------------------------------------
 
 Home: https://github.com/jupyterlab/language-packs
 
 Package license: BSD-3-Clause
 
-Summary: JupyterLab ro-RO Language Pack
+Summary: JupyterLab ar-SA Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
 Documentation: https://jupyterlab.readthedocs.io/
 
-About jupyterlab-language-pack-no-no
+About jupyterlab-language-pack-el-gr
 ------------------------------------
 
 Home: https://github.com/jupyterlab/language-packs
 
 Package license: BSD-3-Clause
 
-Summary: JupyterLab no-NO Language Pack
-
-Development: https://github.com/jupyterlab/language-packs
-
-Documentation: https://jupyterlab.readthedocs.io/
-
-About jupyterlab-language-pack-fr-fr
-------------------------------------
-
-Home: https://github.com/jupyterlab/language-packs
-
-Package license: BSD-3-Clause
-
-Summary: JupyterLab fr-FR Language Pack
-
-Development: https://github.com/jupyterlab/language-packs
-
-Documentation: https://jupyterlab.readthedocs.io/
-
-About jupyterlab-language-pack-vi-vn
-------------------------------------
-
-Home: https://github.com/jupyterlab/language-packs
-
-Package license: BSD-3-Clause
-
-Summary: JupyterLab vi-VN Language Pack
+Summary: JupyterLab el-GR Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
@@ -186,14 +212,79 @@ Development: https://github.com/jupyterlab/language-packs
 
 Documentation: https://jupyterlab.readthedocs.io/
 
-About jupyterlab-language-pack-el-gr
+About jupyterlab-language-pack-no-no
 ------------------------------------
 
 Home: https://github.com/jupyterlab/language-packs
 
 Package license: BSD-3-Clause
 
-Summary: JupyterLab el-GR Language Pack
+Summary: JupyterLab no-NO Language Pack
+
+Development: https://github.com/jupyterlab/language-packs
+
+Documentation: https://jupyterlab.readthedocs.io/
+
+About jupyterlab-language-pack-de-de
+------------------------------------
+
+Home: https://github.com/jupyterlab/language-packs
+
+Package license: BSD-3-Clause
+
+Summary: JupyterLab de-DE Language Pack
+
+Development: https://github.com/jupyterlab/language-packs
+
+Documentation: https://jupyterlab.readthedocs.io/
+
+About jupyterlab-language-pack-zh-tw
+------------------------------------
+
+Home: https://github.com/jupyterlab/language-packs
+
+Package license: BSD-3-Clause
+
+Summary: JupyterLab zh-TW Language Pack
+
+Development: https://github.com/jupyterlab/language-packs
+
+Documentation: https://jupyterlab.readthedocs.io/
+
+About jupyterlab-language-pack-fr-fr
+------------------------------------
+
+Home: https://github.com/jupyterlab/language-packs
+
+Package license: BSD-3-Clause
+
+Summary: JupyterLab fr-FR Language Pack
+
+Development: https://github.com/jupyterlab/language-packs
+
+Documentation: https://jupyterlab.readthedocs.io/
+
+About jupyterlab-language-pack-vi-vn
+------------------------------------
+
+Home: https://github.com/jupyterlab/language-packs
+
+Package license: BSD-3-Clause
+
+Summary: JupyterLab vi-VN Language Pack
+
+Development: https://github.com/jupyterlab/language-packs
+
+Documentation: https://jupyterlab.readthedocs.io/
+
+About jupyterlab-language-pack-ko-kr
+------------------------------------
+
+Home: https://github.com/jupyterlab/language-packs
+
+Package license: BSD-3-Clause
+
+Summary: JupyterLab ko-KR Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
@@ -225,131 +316,27 @@ Development: https://github.com/jupyterlab/language-packs
 
 Documentation: https://jupyterlab.readthedocs.io/
 
-About jupyterlab-language-pack-ca-es
+About jupyterlab-language-pack-ro-ro
 ------------------------------------
 
 Home: https://github.com/jupyterlab/language-packs
 
 Package license: BSD-3-Clause
 
-Summary: JupyterLab ca-ES Language Pack
+Summary: JupyterLab ro-RO Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
 Documentation: https://jupyterlab.readthedocs.io/
 
-About jupyterlab-language-pack-zh-cn
+About jupyterlab-language-pack-es-es
 ------------------------------------
 
 Home: https://github.com/jupyterlab/language-packs
 
 Package license: BSD-3-Clause
 
-Summary: JupyterLab zh-CN Language Pack
-
-Development: https://github.com/jupyterlab/language-packs
-
-Documentation: https://jupyterlab.readthedocs.io/
-
-About jupyterlab-language-pack-uk-ua
-------------------------------------
-
-Home: https://github.com/jupyterlab/language-packs
-
-Package license: BSD-3-Clause
-
-Summary: JupyterLab uk-UA Language Pack
-
-Development: https://github.com/jupyterlab/language-packs
-
-Documentation: https://jupyterlab.readthedocs.io/
-
-About jupyterlab-language-pack-nl-nl
-------------------------------------
-
-Home: https://github.com/jupyterlab/language-packs
-
-Package license: BSD-3-Clause
-
-Summary: JupyterLab nl-NL Language Pack
-
-Development: https://github.com/jupyterlab/language-packs
-
-Documentation: https://jupyterlab.readthedocs.io/
-
-About jupyterlab-language-pack-de-de
-------------------------------------
-
-Home: https://github.com/jupyterlab/language-packs
-
-Package license: BSD-3-Clause
-
-Summary: JupyterLab de-DE Language Pack
-
-Development: https://github.com/jupyterlab/language-packs
-
-Documentation: https://jupyterlab.readthedocs.io/
-
-About jupyterlab-language-pack-ru-ru
-------------------------------------
-
-Home: https://github.com/jupyterlab/language-packs
-
-Package license: BSD-3-Clause
-
-Summary: JupyterLab ru-RU Language Pack
-
-Development: https://github.com/jupyterlab/language-packs
-
-Documentation: https://jupyterlab.readthedocs.io/
-
-About jupyterlab-language-pack-id-id
-------------------------------------
-
-Home: https://github.com/jupyterlab/language-packs
-
-Package license: BSD-3-Clause
-
-Summary: JupyterLab id-ID Language Pack
-
-Development: https://github.com/jupyterlab/language-packs
-
-Documentation: https://jupyterlab.readthedocs.io/
-
-About jupyterlab-language-pack-fi-fi
-------------------------------------
-
-Home: https://github.com/jupyterlab/language-packs
-
-Package license: BSD-3-Clause
-
-Summary: JupyterLab fi-FI Language Pack
-
-Development: https://github.com/jupyterlab/language-packs
-
-Documentation: https://jupyterlab.readthedocs.io/
-
-About jupyterlab-language-pack-ko-kr
-------------------------------------
-
-Home: https://github.com/jupyterlab/language-packs
-
-Package license: BSD-3-Clause
-
-Summary: JupyterLab ko-KR Language Pack
-
-Development: https://github.com/jupyterlab/language-packs
-
-Documentation: https://jupyterlab.readthedocs.io/
-
-About jupyterlab-language-pack-zh-tw
-------------------------------------
-
-Home: https://github.com/jupyterlab/language-packs
-
-Package license: BSD-3-Clause
-
-Summary: JupyterLab zh-TW Language Pack
+Summary: JupyterLab es-ES Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
@@ -368,14 +355,27 @@ Development: https://github.com/jupyterlab/language-packs
 
 Documentation: https://jupyterlab.readthedocs.io/
 
-About jupyterlab-language-pack-da-dk
+About jupyterlab-language-pack-zh-cn
 ------------------------------------
 
 Home: https://github.com/jupyterlab/language-packs
 
 Package license: BSD-3-Clause
 
-Summary: JupyterLab da-DK Language Pack
+Summary: JupyterLab zh-CN Language Pack
+
+Development: https://github.com/jupyterlab/language-packs
+
+Documentation: https://jupyterlab.readthedocs.io/
+
+About jupyterlab-language-pack-ru-ru
+------------------------------------
+
+Home: https://github.com/jupyterlab/language-packs
+
+Package license: BSD-3-Clause
+
+Summary: JupyterLab ru-RU Language Pack
 
 Development: https://github.com/jupyterlab/language-packs
 
