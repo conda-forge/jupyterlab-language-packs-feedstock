@@ -95,7 +95,7 @@ source:
     sha256: 72ef9b8c6f08f86ac54353cd8ca38f4e03d9b36fc5116b80f00b12c93dbcfa91
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install "./{{ locale }}" -vv --no-deps
 
@@ -104,13 +104,14 @@ requirements:
     - hatchling >=1.4.0
     - jupyterlab-translate >=1.2.0
     - pip
-    - python >=3.6
+    - python {{ python_min }}
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
