@@ -1,0 +1,306 @@
+# -*- mode: toml -*-
+# This file was generated automatically from conda-smithy. To update this configuration,
+# update the conda-forge.yml and/or the recipe/meta.yaml.
+"$schema" = "https://pixi.sh/v0.59.0/schema/manifest/schema.json"
+
+[workspace]
+name = "jupyterlab-language-packs-feedstock"
+version = "2026.11.6"  # conda-smithy version used to generate this file
+description = "Pixi configuration for conda-forge/jupyterlab-language-packs-feedstock"
+authors = ["@conda-forge/jupyterlab-language-packs"]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-64", "win-64"]
+requires-pixi = ">=0.59.0"
+
+[tasks.build-locally]
+cmd = "pixi exec --force-reinstall --list='^python$' python ./build-locally.py"
+description = "Build packages locally using the same setup scripts used in conda-forge's CI"
+[tasks.smithy]
+cmd = "pixi exec --force-reinstall --list='^conda-smithy$' conda-smithy"
+description = "Run conda-smithy. Pass necessary arguments."
+[tasks.rerender]
+cmd = "pixi exec --force-reinstall --list='^conda-smithy$' conda-smithy rerender"
+description = "Rerender the feedstock."
+
+[tasks.lint]
+cmd = "pixi exec --list='^conda-smithy$' conda-smithy lint --conda-forge recipe"
+description = "Lint the feedstock recipe"
+
+[feature.build.dependencies]
+conda-build = ">=26.3"
+conda-forge-ci-setup = "4.*"
+python = "3.14.*"
+rattler-build = "*"
+
+[feature.build.tasks.inspect-all]
+cmd = "inspect_artifacts --all-packages"
+description = "List contents of all packages found in rattler-build build directory."
+[feature.build.tasks.build]
+cmd = "rattler-build build --recipe recipe"
+description = "Build jupyterlab-language-packs-feedstock directly (without setup scripts), no particular variant specified"
+[feature.build.tasks."build-linux_64_localear-SA"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localear-SA.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localear-SA directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localear-SA"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localear-SA.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localear-SA directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localear-SA"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localear-SA.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localear-SA"
+[feature.build.tasks."build-linux_64_localeca-ES"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localeca-ES.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localeca-ES directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localeca-ES"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localeca-ES.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localeca-ES directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localeca-ES"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localeca-ES.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localeca-ES"
+[feature.build.tasks."build-linux_64_localecs-CZ"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localecs-CZ.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localecs-CZ directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localecs-CZ"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localecs-CZ.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localecs-CZ directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localecs-CZ"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localecs-CZ.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localecs-CZ"
+[feature.build.tasks."build-linux_64_localeda-DK"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localeda-DK.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localeda-DK directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localeda-DK"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localeda-DK.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localeda-DK directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localeda-DK"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localeda-DK.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localeda-DK"
+[feature.build.tasks."build-linux_64_localede-DE"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localede-DE.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localede-DE directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localede-DE"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localede-DE.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localede-DE directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localede-DE"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localede-DE.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localede-DE"
+[feature.build.tasks."build-linux_64_localeel-GR"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localeel-GR.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localeel-GR directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localeel-GR"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localeel-GR.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localeel-GR directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localeel-GR"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localeel-GR.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localeel-GR"
+[feature.build.tasks."build-linux_64_localees-ES"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localees-ES.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localees-ES directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localees-ES"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localees-ES.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localees-ES directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localees-ES"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localees-ES.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localees-ES"
+[feature.build.tasks."build-linux_64_localeet-EE"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localeet-EE.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localeet-EE directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localeet-EE"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localeet-EE.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localeet-EE directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localeet-EE"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localeet-EE.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localeet-EE"
+[feature.build.tasks."build-linux_64_localefi-FI"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localefi-FI.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localefi-FI directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localefi-FI"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localefi-FI.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localefi-FI directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localefi-FI"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localefi-FI.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localefi-FI"
+[feature.build.tasks."build-linux_64_localefr-FR"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localefr-FR.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localefr-FR directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localefr-FR"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localefr-FR.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localefr-FR directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localefr-FR"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localefr-FR.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localefr-FR"
+[feature.build.tasks."build-linux_64_localehe-IL"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localehe-IL.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localehe-IL directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localehe-IL"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localehe-IL.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localehe-IL directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localehe-IL"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localehe-IL.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localehe-IL"
+[feature.build.tasks."build-linux_64_localehu-HU"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localehu-HU.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localehu-HU directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localehu-HU"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localehu-HU.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localehu-HU directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localehu-HU"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localehu-HU.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localehu-HU"
+[feature.build.tasks."build-linux_64_localehy-AM"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localehy-AM.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localehy-AM directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localehy-AM"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localehy-AM.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localehy-AM directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localehy-AM"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localehy-AM.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localehy-AM"
+[feature.build.tasks."build-linux_64_localeid-ID"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localeid-ID.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localeid-ID directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localeid-ID"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localeid-ID.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localeid-ID directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localeid-ID"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localeid-ID.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localeid-ID"
+[feature.build.tasks."build-linux_64_localeit-IT"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localeit-IT.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localeit-IT directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localeit-IT"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localeit-IT.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localeit-IT directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localeit-IT"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localeit-IT.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localeit-IT"
+[feature.build.tasks."build-linux_64_localeja-JP"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localeja-JP.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localeja-JP directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localeja-JP"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localeja-JP.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localeja-JP directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localeja-JP"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localeja-JP.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localeja-JP"
+[feature.build.tasks."build-linux_64_localeko-KR"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localeko-KR.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localeko-KR directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localeko-KR"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localeko-KR.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localeko-KR directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localeko-KR"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localeko-KR.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localeko-KR"
+[feature.build.tasks."build-linux_64_localelt-LT"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localelt-LT.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localelt-LT directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localelt-LT"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localelt-LT.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localelt-LT directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localelt-LT"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localelt-LT.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localelt-LT"
+[feature.build.tasks."build-linux_64_localenl-NL"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localenl-NL.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localenl-NL directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localenl-NL"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localenl-NL.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localenl-NL directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localenl-NL"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localenl-NL.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localenl-NL"
+[feature.build.tasks."build-linux_64_localeno-NO"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localeno-NO.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localeno-NO directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localeno-NO"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localeno-NO.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localeno-NO directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localeno-NO"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localeno-NO.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localeno-NO"
+[feature.build.tasks."build-linux_64_localepl-PL"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localepl-PL.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localepl-PL directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localepl-PL"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localepl-PL.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localepl-PL directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localepl-PL"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localepl-PL.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localepl-PL"
+[feature.build.tasks."build-linux_64_localept-BR"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localept-BR.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localept-BR directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localept-BR"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localept-BR.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localept-BR directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localept-BR"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localept-BR.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localept-BR"
+[feature.build.tasks."build-linux_64_localero-RO"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localero-RO.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localero-RO directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localero-RO"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localero-RO.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localero-RO directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localero-RO"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localero-RO.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localero-RO"
+[feature.build.tasks."build-linux_64_localeru-RU"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localeru-RU.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localeru-RU directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localeru-RU"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localeru-RU.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localeru-RU directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localeru-RU"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localeru-RU.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localeru-RU"
+[feature.build.tasks."build-linux_64_localetr-TR"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localetr-TR.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localetr-TR directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localetr-TR"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localetr-TR.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localetr-TR directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localetr-TR"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localetr-TR.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localetr-TR"
+[feature.build.tasks."build-linux_64_localeuk-UA"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localeuk-UA.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localeuk-UA directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localeuk-UA"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localeuk-UA.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localeuk-UA directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localeuk-UA"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localeuk-UA.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localeuk-UA"
+[feature.build.tasks."build-linux_64_localevi-VN"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localevi-VN.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localevi-VN directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localevi-VN"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localevi-VN.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localevi-VN directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localevi-VN"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localevi-VN.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localevi-VN"
+[feature.build.tasks."build-linux_64_localezh-CN"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localezh-CN.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localezh-CN directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localezh-CN"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localezh-CN.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localezh-CN directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localezh-CN"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localezh-CN.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localezh-CN"
+[feature.build.tasks."build-linux_64_localezh-TW"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_localezh-TW.yaml "
+description = "Build jupyterlab-language-packs-feedstock with variant linux_64_localezh-TW directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_localezh-TW"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_localezh-TW.yaml "
+description = "Debug jupyterlab-language-packs-feedstock with variant linux_64_localezh-TW directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_localezh-TW"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_localezh-TW.yaml"
+description = "List contents of jupyterlab-language-packs-feedstock packages built for variant linux_64_localezh-TW"
+
+[environments]
+build = ["build"]
+# This is a copy of 'build', to be enabled by build_steps.sh during Docker builds
+# __PLATFORM_SPECIFIC_ENV__ = ["build"]
